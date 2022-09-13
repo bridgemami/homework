@@ -5,7 +5,9 @@
       "author": "Yoda",
       "color": "yellow",
       "background":"#ccbbaa",
-      "source":"The Empire Strikes Back"
+      "source":"The Empire Strikes Back",
+      "youtube": "https://youtu.be/BQ4yd2W50No",
+      "youtubeTitle": "Go to the Clip"
     },
     {
       "id": 2,
@@ -13,7 +15,9 @@
       "author": "Albus Dumbledore",
       "color": "#fedcba",
       "background":"brown",
-      "source":"Harry Potter"
+      "source":"Harry Potter and the Chamber of Secrets",
+      "youtube": "https://youtu.be/GC7Aqc-h9no",
+      "youtubeTitle": "Go to the Clip"
     },
     {
       "id": 3,
@@ -21,14 +25,18 @@
       "author": "Gandalf",
       "color": "#45ef46",
       "background":"black",
-      "source":"The Fellowship of the Ring"
+      "source":"The Fellowship of the Ring",
+      "youtube": "https://youtu.be/pjAAC13al9s",
+      "youtubeTitle": "Go to the Clip"
     },
     {
       "id": 4,
      "quote": "\"It’s a dangerous business, Frodo, going out your door. You step onto the road, and if you don’t keep your feet, there’s no knowing where you might be swept off to.\"",
-      "author": "Biblo Baggins",
+      "author": "Bilbo Baggins",
       "color": "#713699",
       "background":"red",
-      "source":"The Fellowship of the Ring"
+      "source":"The Fellowship of the Ring",
+      "youtube": "https://youtu.be/qYoO7tuNqQY",
+      "youtubeTitle": "Go to the Clip"
       }
   ]

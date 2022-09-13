@@ -12,15 +12,16 @@ const jsonData = fs.readFileSync( filePath, 'utf8' );
 //convert string from file into json array object
 const jsonObj = JSON.parse( jsonData);
 //use map() on array to extract just id properties into new array of object values
-return jsonObj.map(item => {
+const returnData = jsonObj.map(item => {
     return {
         params: {
             id: item.id.toString()
         }
     }
 }
-
-)
+);
+console.log(returnData);
+return returnData;
 }
 
 //function returns names and ids for all json objects in array, sorted by name property.

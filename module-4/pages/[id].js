@@ -23,11 +23,15 @@ return {
 
 // make a react component to display all details about a person when a dynamic route matches, like id 1 or id 2
 export default function Entry ({itemData}) {
-    <article class= "card col-4">
-        <div class="card-body">
-            <h5 class="card-title">
+    return (
+    <section class= 'card col-12 col-md-4'>
+        <div class='card-body'>
+            <h5 class='card-title '>
                {itemData.author} </h5>
-               <h6 class="card-subtitle mb-3 text-muted">{itemData.quote}</h6>
+               <h6 class='card-subtitle mb-3 text-muted fs-italic'>{itemData.source}</h6>
+               <p>{itemData.quote}</p>
+               <a href={itemData.youtube} target='_blank' class='card'>{itemData.youtubeTitle}</a>
             </div>
-        </article>
+        </section>
+    );
 }
