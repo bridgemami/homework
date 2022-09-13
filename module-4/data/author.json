@@ -5,8 +5,7 @@
       "author": "Yoda",
       "color": "yellow",
       "background":"#ccbbaa",
-      "width":"25vw",
-      "height": "20vh"
+      "source":"The Empire Strikes Back"
     },
     {
       "id": 2,
@@ -14,8 +13,7 @@
       "author": "Albus Dumbledore",
       "color": "#fedcba",
       "background":"brown",
-      "width":"50vw",
-      "height": "25vh"
+      "source":"Harry Potter"
     },
     {
       "id": 3,
@@ -23,8 +21,7 @@
       "author": "Gandalf",
       "color": "#45ef46",
       "background":"black",
-      "width":"75vw",
-      "height": "30vh"
+      "source":"The Fellowship of the Ring"
     },
     {
       "id": 4,
@@ -32,7 +29,6 @@
       "author": "Biblo Baggins",
       "color": "#713699",
       "background":"red",
-      "width":"100vw",
-      "height": "35vh"
+      "source":"The Fellowship of the Ring"
       }
   ]
