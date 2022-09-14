@@ -27,7 +27,18 @@ return returnData;
 //function returns names and ids for all json objects in array, sorted by name property.
 
 export function getSortedList() {
-
+const filePath = path.join(dataJ, 'author.json');
+const jsonInfo =fs.readFileSync(filePath, 'utf8');
+const jsonObj = JSON.parse(jsonInfo);
+jsonObj.sort(function(x,y) {
+    return x.author.localeCompare(y.author);
+});
+return jsonObj.map(item => {
+    return {
+        id: item.id.toString(),
+        author: item.author
+    }
+})
 }
 
 //async function to get the complete data for just one author/person
