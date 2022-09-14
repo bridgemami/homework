@@ -16,9 +16,9 @@ export default function Home({ allData }) {
       <Layout home>
         <h1>List of Authors</h1>
         <div className="list-group">
-          {allData.map(({ id, author }) => (
+          {allData.map(({ id, author, job }) => (
             <Link key={id} href={`/${id}`}>
-              <a className="list-group-item list-group-item-action">{author}</a>
+              <a className="list-group-item list-group-item-action">{author}, {job}</a>
             </Link>
           ))}
         </div>
