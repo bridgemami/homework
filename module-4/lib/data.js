@@ -35,7 +35,7 @@ const filePath = path.join(dataJ, 'jobs.json');
 const jsonInfo =fs.readFileSync(filePath, 'utf8');
 const jsonObj = JSON.parse(jsonInfo);
 jsonObj.sort(function(x,y) {
-    return x.author.localeCompare(y.author);
+    return x.job.localeCompare(y.job);
 });
 return jsonObj.map(item => {
     return {

@@ -15,6 +15,7 @@ export default function Home({ allData }) {
   return (
       <Layout home>
         <h1>List of Authors</h1>
+          <p>Listed by Job</p>
         <div className="list-group">
           {allData.map(({ id, author, job }) => (
             <Link key={id} href={`/${id}`}>
