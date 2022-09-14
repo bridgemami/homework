@@ -7,10 +7,13 @@ const dataJ = path.join( process.cwd(), 'data');
 export function getAllIds() {
 //get filepath to json file
 const filePath = path.join( dataJ, 'author.json' ); 
+// const filePath2 = path.join( dataJ, 'jobs.json' ); 
 //load json file contents
 const jsonData = fs.readFileSync( filePath, 'utf8' );
+// const jsonData2 = fs.readFileSync( filePath2, 'utf8' );
 //convert string from file into json array object
 const jsonObj = JSON.parse( jsonData);
+// const jsonObj2 = JSON.parse( jsonData2);
 //use map() on array to extract just id properties into new array of object values
 const returnData = jsonObj.map(item => {
     return {
@@ -20,6 +23,7 @@ const returnData = jsonObj.map(item => {
     }
 }
 );
+
 console.log(returnData);
 return returnData;
 }
@@ -27,7 +31,19 @@ return returnData;
 //function returns names and ids for all json objects in array, sorted by name property.
 
 export function getSortedList() {
-
+const filePath = path.join(dataJ, 'jobs.json');
+const jsonInfo =fs.readFileSync(filePath, 'utf8');
+const jsonObj = JSON.parse(jsonInfo);
+jsonObj.sort(function(x,y) {
+    return x.job.localeCompare(y.job);
+});
+return jsonObj.map(item => {
+    return {
+        id: item.id.toString(),
+        job: item.job,
+        author: item.author
+    }
+})
 }
 
 //async function to get the complete data for just one author/person
