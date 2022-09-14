@@ -34,7 +34,7 @@ export function getSortedList() {
 // used by getStaticProps() in [id].js
 export async function getData(idRequested) {
 // get filepath to data directory
-// const dataJ = path.join( process.cwd(), 'data');
+const filePath = path.join( dataJ, 'author.json' ); 
 //load json file contents
 const jsonData = fs.readFileSync( filePath, 'utf8' );
 //convert string from file into json array object

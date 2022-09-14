@@ -14,10 +14,10 @@ export async function getStaticProps({params}) {
 
 //create an instance of the getStaticPaths() to report next all possible dynamic urls
 export async function getStaticPaths() {
-const allDynamicPaths = getAllIds();
+const paths = getAllIds();
 return {
-    allDynamicPaths,
-    fallback: false
+    paths,
+    fallback: false,
 };
 }
 
