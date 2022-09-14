@@ -1,22 +1,38 @@
 [
     {
-      "id": 1,
+      "id": 5,
+     "quote":"\"Do. Or do not. There is no try.\"",
       "author": "Yoda",
-      "job": "Jedi Master"
+      "color": "yellow",
+      "source":"The Empire Strikes Back",
+      "youtube": "https://youtu.be/BQ4yd2W50No",
+      "youtubeTitle": "Go to the Clip"
     },
     {
-      "id": 2,
+      "id": 6,
+      "quote":"\"It is our choices, Harry, that show what we truly are, far more than our abilities.\"",
       "author": "Albus Dumbledore",
-      "job": "Professor at Hogwarts"
+      "background":"brown",
+      "source":"Harry Potter and the Chamber of Secrets",
+      "youtube": "https://youtu.be/GC7Aqc-h9no",
+      "youtubeTitle": "Go to the Clip"
     },
     {
-      "id": 3,
+      "id": 7,
+      "quote":"\"“and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us.”\"",
       "author": "Gandalf",
-      "job": "Wizard of Middle-Earth"
+      "background":"black",
+      "source":"The Fellowship of the Ring",
+      "youtube": "https://youtu.be/pjAAC13al9s",
+      "youtubeTitle": "Go to the Clip"
     },
     {
-      "id": 4,
+      "id": 8,
+     "quote": "\"It’s a dangerous business, Frodo, going out your door. You step onto the road, and if you don’t keep your feet, there’s no knowing where you might be swept off to.\"",
       "author": "Bilbo Baggins",
-      "job": "Hobbit"
+      "background":"red",
+      "source":"The Fellowship of the Ring",
+      "youtube": "https://youtu.be/qYoO7tuNqQY",
+      "youtubeTitle": "Go to the Clip"
       }
   ]
