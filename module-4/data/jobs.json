@@ -1,18 +1,22 @@
 [
     {
       "id": 1,
-      "author": "Yoda"
+      "author": "Yoda",
+      "job": "Jedi Master"
     },
     {
       "id": 2,
-      "author": "Albus Dumbledore"
+      "author": "Albus Dumbledore",
+      "job": "Professor at Hogwarts"
     },
     {
       "id": 3,
-      "author": "Gandalf"
+      "author": "Gandalf",
+      "job": "Wizard of Middle-Earth"
     },
     {
       "id": 4,
-      "author": "Bilbo Baggins"
+      "author": "Bilbo Baggins",
+      "job": "Hobbit"
       }
   ]
